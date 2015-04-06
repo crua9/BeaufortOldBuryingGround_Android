@@ -34,6 +34,12 @@ public class ImageActivity extends Activity{
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		Initialize();
+
+        /*
+        Mobile core is an ad platform. If someone uses it, just replace the stuff between the "" with whatever that's linked to your account.
+
+        This ad does require net. (so it might of been a bad idea with this app)
+         */
 		
 	 c = this;
 	 MobileCore.init(this,"6D2V2SBRCUOD79N4BZN3Q7U4XL1K9", LOG_TYPE.DEBUG, AD_UNITS.ALL_UNITS);
